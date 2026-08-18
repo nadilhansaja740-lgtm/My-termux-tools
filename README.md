@@ -1,19 +1,69 @@
-# 🛠️ My Termux Tools
+# ⚡ MY-TERMUX-TOOLS
 
-A simple collection of useful command-line tools designed to run on **Termux for Android**.
+### Professional Termux Security & Diagnostics Toolkit
 
-## ✨ Features
+A modular command-line toolkit built for Termux on Android.
 
-- 📱 System Information
-- 💾 Storage Information
-- 🌐 Network Information
-- 🎛️ Simple interactive menu
-- ⚡ Easy installation
-- 📦 Lightweight Bash scripts
+---
 
-## 📥 Installation
+## 🚀 Features
 
-Clone the repository:
+- 📱 Device information
+- 🔋 Battery information
+- 💾 Storage information
+- 🌐 Network diagnostics
+- 📡 Ping testing
+- 🔍 DNS diagnostics
+- 🔎 DNS lookup
+- 🌍 HTTP headers inspection
+- 🔐 File hash generation
+- 🔑 Password strength checking
+- 🛡️ Permission auditing
+- 📶 Internet diagnostics
+- 💻 System information
+- 🎨 Colored terminal interface
+- 📦 Modular tool structure
 
-```bash
-git clone https://github.com/nadilhansaja740-lgtm/My-termux-tools.git# My-termux-tools
+---
+
+## 📂 Project Structure
+
+```text
+My-termux-tools/
+│
+├── README.md
+├── run.sh
+├── install.sh
+│
+├── config/
+│   └── colors.sh
+│
+├── lib/
+│   └── ui.sh
+│
+└── tools/
+    ├── device/
+    │   ├── device-info.sh
+    │   ├── battery-info.sh
+    │   └── storage-info.sh
+    │
+    ├── network/
+    │   ├── network-info.sh
+    │   ├── ping-test.sh
+    │   └── dns-check.sh
+    │
+    ├── recon/
+    │   ├── dns-lookup.sh
+    │   └── http-headers.sh
+    │
+    ├── security/
+    │   ├── file-hash.sh
+    │   ├── password-check.sh
+    │   └── permission-audit.sh
+    │
+    ├── diagnostics/
+    │   ├── internet-test.sh
+    │   └── network-test.sh
+    │
+    └── system/
+        └── system-info.sh;
